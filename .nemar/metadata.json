@@ -2,6 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "An EEG dataset recorded during affective music listening",
+  "description": "This dataset comprises unprocessed EEG recordings from 31 healthy adult participants (age 18-66) listening to 40 music clips of varying emotional content, collected to investigate neural correlates of music-induced emotion. The study included 6 recording runs per participant: two resting-state runs and four runs containing 10 music listening trials each. EEG data were sampled at 1 kHz with 20-second recordings per participant per music clip (12-second clip duration), accompanied by participants' self-reported emotional responses. This dataset accompanies the publication by Daly et al. (2018) and has been analysed in Daly et al. (2014; 2015a; 2015b).",
+  "methods_description": "EEG data were collected from 31 participants (age range 18-66, 18 female) during listening to 40 music clips (12 s duration each) selected from film scores to target a range of emotional states. The experimental paradigm consisted of 6 runs: two resting-state runs (300 s each, participants instructed to sit still) and four runs containing 10 music listening trials each. EEG sampling rate was 1 kHz with 20-second recordings per clip. Participants rated induced emotional responses to each stimulus. The musical stimuli were taken from Eerola & Vuoskoski's emotion in music study (Stimuli set 1). Further methodological details are available in the associated publications (Daly et al. 2014, 2015a, 2015b, 2018).",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -13,6 +15,35 @@
     "Eduardo Miranda": {},
     "Slawomir J. Nasuto": {}
   },
+  "keywords": [
+    {
+      "term": "EEG"
+    },
+    {
+      "term": "emotion recognition"
+    },
+    {
+      "term": "music listening"
+    },
+    {
+      "term": "affective states"
+    },
+    {
+      "term": "neural correlates"
+    },
+    {
+      "term": "music-induced emotion"
+    },
+    {
+      "term": "film scores"
+    },
+    {
+      "term": "resting state"
+    },
+    {
+      "term": "BCMI-MIdAS"
+    }
+  ],
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds002721.v1.0.2",
@@ -60,52 +91,6 @@
       "relation_type": "IsIdenticalTo"
     }
   ],
-  "modalities": [
-    "eeg"
-  ],
-  "resource_type_specific": "EEG Dataset",
-  "sizes": [
-    "0.0 KB (1 files)"
-  ],
-  "formats": [
-    ".edf",
-    ".gitattributes",
-    ".json",
-    ".m",
-    ".md",
-    ".tsv"
-  ],
-  "description": "This dataset comprises unprocessed EEG recordings from 31 healthy adult participants (age 18-66, 18 female) listening to 40 music clips of varying emotional content. The study investigates neural correlates of music-induced emotion through six runs of EEG recordings, including resting-state baseline and four music listening runs. Data were collected at 1 kHz sampling rate with 20 s recording duration per trial (12 s music stimulus plus 8 s additional recording window) and are accompanied by participants' self-reported emotional responses, providing a resource for studying the relationship between brain activity and affective music perception.",
-  "methods_description": "EEG data were recorded from 31 participants during six runs: two resting-state runs (300 s each) and four music listening runs (10 trials each with 12 s music clips). Music stimuli comprised film score excerpts rated for induced emotion. EEG was sampled at 1 kHz with 20 s recording duration per trial (12 s stimulus plus 8 s buffer). Participants reported induced emotional responses following each trial. Contributors to data collection and processing: Isil Poyraz Bilgin, James Weaver, Asad Malik.",
-  "keywords": [
-    {
-      "term": "EEG"
-    },
-    {
-      "term": "emotion recognition"
-    },
-    {
-      "term": "music perception"
-    },
-    {
-      "term": "affective neuroscience"
-    },
-    {
-      "term": "brain-computer interfaces"
-    },
-    {
-      "term": "neuroimaging"
-    },
-    {
-      "term": "music-induced emotion"
-    },
-    {
-      "term": "resting-state"
-    },
-    {
-      "term": "BCMI-MIdAS"
-    }
-  ],
   "funding_references": [
     {
       "funder_name": "Engineering and Physical Sciences Research Council",
@@ -115,6 +100,22 @@
       "funder_name": "Engineering and Physical Sciences Research Council",
       "award_number": "EP/J002135/1"
     }
+  ],
+  "resource_type_specific": "EEG Dataset",
+  "modalities": [
+    "eeg"
+  ],
+  "sizes": [
+    "3.6 GB (187 files)"
+  ],
+  "formats": [
+    ".edf",
+    ".gitattributes",
+    ".json",
+    ".m",
+    ".md",
+    ".tsv",
+    ".yml"
   ],
   "source_hash": "d60464efe07d35150acfc55dc2a63f6c15e5995293c2ba5331562b8a36de39c2"
 }
